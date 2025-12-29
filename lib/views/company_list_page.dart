@@ -96,7 +96,7 @@ class _CompanyListPageState extends State<CompanyListPage> {
                                 overflow: TextOverflow.ellipsis,
                               ),
                               Text(
-                                'CE0 :companyList![index].ceoName',
+                                'CEO :${companyList![index].ceoName}',
                                 style: TextStyle(
                                   fontSize: 14,
                                   color: Colors.grey[700],
